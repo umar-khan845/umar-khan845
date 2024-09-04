@@ -18,24 +18,6 @@
 - 📄 Know about my experiences [https://europa.eu/europass/eportfolio/screen/profile?profileId=65df9e61e55a1c7fc2b3d7c2&lang=en](https://europa.eu/europass/eportfolio/screen/profile?profileId=65df9e61e55a1c7fc2b3d7c2&lang=en)
 
 - ⚡ Fun fact **Let Bygone be byGone -||-**
- name: Generate snake animation
-
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
-  push:
-    branches:
-    - master
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
